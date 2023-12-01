@@ -2,7 +2,7 @@ module.exports = {
     apps: [
       {
         name: 'Refund-Payment-api',
-        script: 'index.js',  // Replace with your actual main script file
+        script: 'app.js',  // Replace with your actual main script file
         instances: 'max',
         exec_mode: 'cluster',
         watch: true,
